@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Formulario</title>
+      <link rel="stylesheet" href="EstiloContacto.css"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <div class="Main">
+         <header>
+            <img src="img/Email.jpg" width="200" height="200">
+         </header>
+         <form action="mailto:miusuario@miemail.com" method="POST">
+            <div class="Nav">
+               <label for="usuario">Ingrese su nombre:</label>
+               <input type="text" placeholder="Digite su nombre" maxlength="50" name="usuario" id="usuario">
+               <br>
+               <label for="subject">Asunto:</label>
+               <input type="text" placeholder="Asunto" maxlength="50" name="subject" id="subject">
+               <br>
+               <label for="email">Ingrese su email: </label>
+               <input type="email" placeholder="Digite su email" maxlength="50" name="email" id="email">
+               <br>
+               <label for="message">Ingrese su mensaje:</label>
+               <textarea name="message" id="message"></textarea>
+               <br>
+               <hr>
+            </div>
+            <div class="Boton">
+               <input class="Enviar" type="submit" name="submit">
+               <button class="Cancelar">Cancelar</button>
+            </div>
+         </form>
+      </div>
+   </body>
+</html>

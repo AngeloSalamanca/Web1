@@ -1,0 +1,80 @@
+body {
+     background-color: #0984e3;
+     font-family: 'Roboto', sans-serif;
+}
+ header{
+     width: 100%;
+}
+ .Main{
+     width: 700px;
+     margin: auto auto;
+}
+ .Seccion{
+     width: 100%;
+     background-color: #74b9ff;
+     box-shadow: 10px 10px 20px gray;
+     padding: 10px 20px;
+     margin-top: 20px;
+     border-radius:25px 25px 25px 25px;
+}
+ .Seccion h1{
+     color: yellow;
+     text-shadow: gold 2px 1px;
+     text-align: center;
+     text-decoration: underline;
+}
+ .Seccion .audio{
+     width: 300px;
+     margin: auto auto;
+}
+ .Fecha{
+     text-align: center;
+}
+ .Nav a{
+     text-decoration: none;
+     color: black;
+}
+ .Nav a:hover{
+     color: #00b894;
+}
+ .ImagenAudio{
+     display: block;
+     margin-left: 70px;
+     margin-right: auto;
+}
+ .Boton{
+     background-color: #3563DD;
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin-top: 20px;
+}
+ .Boton:hover{
+     background-color: #55efc4;
+}
+ audio {
+     outline: none;
+     border: 0;
+     -webkit-transition:all 0.5s linear;
+     -moz-transition:all 0.5s linear;
+     -o-transition:all 0.5s linear;
+     transition:all 0.5s linear;
+     -moz-box-shadow: 2px 2px 4px 0px #006773;
+     -webkit-box-shadow: 2px 2px 4px 0px #006773;
+     box-shadow: 2px 2px 4px 0px #006773;
+     -moz-border-radius:25px 25px 25px 25px;
+     -webkit-border-radius:25px 25px 25px 25px;
+     border-radius:25px 25px 25px 25px;
+}
+ audio:hover, audio:focus, audio:active {
+     -webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+     -moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+     box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+     -webkit-transform: scale(1.05);
+     -moz-transform: scale(1.05);
+     transform: scale(1.05);
+}
